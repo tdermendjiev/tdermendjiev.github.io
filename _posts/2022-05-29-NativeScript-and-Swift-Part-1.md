@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Calling Swift functions from C
+title: NativeScript and Swift Part 1: Calling Swift functions from C
 #subtitle: Excerpt from Soulshaping by Jeff Brown
 #cover-img: /assets/img/path.jpg
 #thumbnail-img: /assets/img/thumb.png
