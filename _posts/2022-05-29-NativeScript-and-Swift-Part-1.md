@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NativeScript and Swift Part 1"
-subtitle: Calling Swift functions from C
+title: "NativeScript and Swift Part 1: Calling Swift functions from C"
+#subtitle: 
 #cover-img: /assets/img/path.jpg
 #thumbnail-img: /assets/img/thumb.png
 #share-img: /assets/img/path.jpg
