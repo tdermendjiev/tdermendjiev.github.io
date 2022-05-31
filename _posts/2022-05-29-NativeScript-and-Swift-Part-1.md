@@ -135,7 +135,7 @@ Both `Int` and `Double` are structs. In order the pack the arguments and unpack 
  
  
 
-![<memory image>](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/Screenshot%202022-05-31%20at%2016.48.02.png)
+![memory image](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/Screenshot%202022-05-31%20at%2016.48.02.png)
 
 `1234`'s hex representation is `4D2`, so it looks good. Now, update the `helloWorld` and `main` functions:
 ```
