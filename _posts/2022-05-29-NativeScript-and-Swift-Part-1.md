@@ -1,11 +1,11 @@
-#NativeScript and Swift Part 1: Calling Swift functions from C
+# NativeScript and Swift Part 1: Calling Swift functions from C
 
 In 2022 iOS development doesn't make much sense without Swift. The Swift community is getting bigger and bigger and with all these great frameworks out there I wish there was a better way to use them with NativeScript. 
 
 ## The state of the Swift interoperability
 Currently, in order to access types written in Swift they need to be accessible from the Objective-C runtime, i.e. to be marked as `@objc` or to inherit NSObject. So, if you want to use a Swift framework in your NativeScript project, you may have to create Objective-C wrappers for some of the types. 
 
-##Hello Swift!
+## Hello Swift!
 Let's start with something simple as a proof of concept - our "Hello Swift" application will be able to call a Swift function from javascript. To make it more interesting, the function will take an `Int` parameter and return a `String`:
 
 ```
@@ -174,5 +174,12 @@ int main(int argc, const char * argv[]) {
 ```
 
 When we run it, we get `Result is: 1234`.
+
+## Useful links
+
+1. [Eli Bendersky's article](https://eli.thegreenplace.net/2013/03/04/flexible-runtime-interface-to-shared-libraries-with-libffi)
+2. [Understanding Swift's performance](https://developer.apple.com/videos/play/wwdc2016/416/)
+
+
 
 
