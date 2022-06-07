@@ -1,10 +1,9 @@
 ---
 layout: page
 title: About me
-#subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Teodor Dermendjiev. I'm a software engineer at [Azbouki](https://www.azbouki.com/), a startup focused on developer tools for mobile developers. I have a master degree of Law and care a lot about digital human rights.
+My name is Teodor Dermendjiev and I am a software engineer, interested in runtimes, cybersecurity and privacy. I hold a master degree in law from Sofia University and care a lot about digital human rights. 
 
 Some of the projects that I am actively involved are:
 
