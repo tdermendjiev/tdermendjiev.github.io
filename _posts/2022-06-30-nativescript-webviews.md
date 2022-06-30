@@ -6,6 +6,7 @@ Let me illustrate this concept - imagine having a responsive React or Angular (o
 
 But if we can send data from the webview to the native world, then we can send javascript code and execute it with the NativeScript runtime. This can be used via a similar to the web workers API which receives messages and returns result. The following graph illustrates it:
 
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/Screenshot%202022-06-30%20at%2014.58.01.png)
 
 When the NativeScript runtime is loaded the `RunModule` method is called and what it does is basically calling the `require` function with the app's path as a parameter.
 
