@@ -1,4 +1,4 @@
-# Call native methods from Webviews with the NativeScript ios runtime
+# Calling native methods from Webviews with the NativeScript ios runtime
 
 NativeScript runtime allows calling native APIs without creating bridge classes or other boilerplate code. If we match this power to the concept of executing javascript code on a background thread (as React Native does) and reusing web components as UI, the level of code sharing may be as high as actually having your web application deployed both as such and as a mobile app.
 
