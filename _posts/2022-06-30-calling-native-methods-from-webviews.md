@@ -89,7 +89,7 @@ function sendMessage() {
 }
 ```
 
-In order to handle the message in Swift we have to implement `userController:didReceiveMessage` method in the webview delegate (e.g. the viewcontroller).
+In order to handle the message in Objective-C we have to implement `userController:didReceiveMessage` method in the webview delegate (e.g. the viewcontroller).
 
 ```
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
