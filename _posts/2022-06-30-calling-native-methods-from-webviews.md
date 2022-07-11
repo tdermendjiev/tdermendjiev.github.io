@@ -216,5 +216,7 @@ The `WebviewDispatcher` class is used only for passing messages between the Nati
 
 You probably noticed that in the webpage's js code we override the `onNativeMessage` function. Now it will receive the message passed from the native world and the webpage will receive the json object - `{"data":"iPhone"}`.
 
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/webview-demo.gif)
+
 Here is a [link](https://stackblitz.com/edit/angular-button-habmnm?file=app/app.component.ts) to the sample project.
 
