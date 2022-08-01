@@ -105,23 +105,23 @@ Recording is ended by calling `AzboukiClient.stopVideoSession()`.
 
 Now if you login to the Azbouki dashboard you will see a new session added to the list:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-list.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-list-small.png)
 
 Select a session and the session details screen will open. On the left is the video and right next to it is the list of events:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/play-events.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/play-events-small.png)
 
 You can also open the app logs by clickin on `Application Log`:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-logs.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-logs-small.png)
 
 And see the device data on `Session information`:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-information.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-information-small.png)
 
 At the bottom of the page there is some additional metadata formatted as a json object:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/additional-metadata.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/additional-metadata-small.png)
 
 ### Conclusion
 
