@@ -105,7 +105,7 @@ Recording is ended by calling `AzboukiClient.stopVideoSession()`.
 
 Now if you login to the Azbouki dashboard you will see a new session added to the list:
 
-![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-list-small.png)
+![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-list.png)
 
 Select a session and the session details screen will open. On the left is the video and right next to it is the list of events:
 
