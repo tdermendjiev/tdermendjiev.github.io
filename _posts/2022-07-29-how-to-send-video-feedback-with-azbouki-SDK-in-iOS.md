@@ -2,12 +2,12 @@
 
 ### What is Azbouki
 
-Capturing video feedback with enough metadata can save a lot of time for the entire dev team. There is already many tools available but I keep hearing from my friends and fellow developers that they are using chats and email for getting bug reports and feedback from their clients, users and beta testers. There are two main reasons for that:
+Capturing video feedback with enough metadata can save a lot of time for the entire dev team. There are already many tools available but I keep hearing from my friends and fellow developers that they are using chats and email for getting bug reports and feedback from their clients, users and beta testers. There are two main reasons for that:
 
 * There isn't a go-to tool
 * The most popular tools are either too expensive or closed-source and the developers don't have enough control over what they are recording and sending.
 
-We can't (so far) change the former but there's much we can do about the latter. This is why we started working on the Azbouki SDK and dashboard and being open-source was the most important decision for us. 
+We can't (so far) change the former but there's much we can do about the latter. This is why we started working on the Azbouki SDK and dashboard and being open-source was the most important decision for us.
 
 ### Why Sentry?
 
@@ -38,7 +38,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ### Send video session
 
-In order to capture a video session you need to add `NSPhotoLibraryUsageDescription` to your `Info.plist` file. Otherwise, the app will crash when the user stops the video recording.
+To capture a video session you need to add `NSPhotoLibraryUsageDescription` to your `Info.plist` file. Otherwise, the app will crash when the user stops the video recording.
 
 Starting a capture session is simple:
 
@@ -57,7 +57,7 @@ AzboukiClient.startVideoSession(message: "<some message that you can get accordi
 }
 ```
 
-In the sample application I created a UIButton that toggles recording and opens a UIAlertController:
+In the sample application, I created a UIButton that toggles recording and opens a UIAlertController:
 
 ```
  @IBAction func start(_ sender: UIButton) {
@@ -103,7 +103,7 @@ Recording is ended by calling `AzboukiClient.stopVideoSession()`.
 
 ### Review video reports
 
-Now if you login to the Azbouki dashboard you will see a new session added to the list:
+Now if you log in to the Azbouki dashboard you will see a new session added to the list:
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-list-small.png)
 
@@ -111,7 +111,7 @@ Select a session and the session details screen will open. On the left is the vi
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/play-events-small.png)
 
-You can also open the app logs by clickin on `Application Log`:
+You can also open the app logs by clicking on `Application Log`:
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-logs-small.png)
 
@@ -119,10 +119,11 @@ And see the device data on `Session information`:
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/session-information-small.png)
 
-At the bottom of the page there is some additional metadata formatted as a json object:
+At the bottom of the page there are some additional metadata formatted as a JSON object:
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/additional-metadata-small.png)
 
 ### Conclusion
 
 Azbouki SDK is fully open-source and you can easily extend it and add additional events to the event log. We do our best to keep the docs in a good shape but if any help or customization is needed, drop us a note.
+
