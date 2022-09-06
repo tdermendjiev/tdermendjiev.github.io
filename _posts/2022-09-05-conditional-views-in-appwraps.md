@@ -46,8 +46,6 @@ export default function App() {
           <Route path="/product/:id" element={<Product />} />
         </Routes>
       </Router>
-
-      <p> by @ismael </p>
     </>
   );
 }
@@ -60,9 +58,9 @@ You may also need to set a different title in the navbar, or any text on the pag
 
 ```
 let title = 'Web Boutique';
-  if (window.isOpenFromAppwraps) {
-    title = 'Mobile Boutique';
-  }
+if (window.isOpenFromAppwraps) {
+  title = 'Mobile Boutique';
+}
 ```
 
 ![](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/Screenshot%202022-09-05%20at%2022.18.54.png)
