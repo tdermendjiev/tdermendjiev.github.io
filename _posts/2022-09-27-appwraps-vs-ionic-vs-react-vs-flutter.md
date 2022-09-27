@@ -7,7 +7,7 @@ Mobile app developers have to contend with a wide variety of operating systems, 
 
 This can help to reduce the cost of development as developing two separate apps can be expensive. There are some downsides though, for example, that the app might not be as optimized for each platform or it can be more difficult to debug and test.
 
-![Screenshot 2022-09-19 at 12.54.09.png](Appwraps%20vs%20Ionic%20vs%20React%20Native%20vs%20Flutter%20d6e9f5ebd93149f5847162697d25bf51/Screenshot_2022-09-19_at_12.54.09.png)
+![Screenshot 2022-09-19 at 12.54.09.png](https://raw.githubusercontent.com/tdermendjiev/tdermendjiev.github.io/master/assets/img/Screenshot_2022-09-19_at_12.54.09.png)
 
 ### Hybrid vs. Cross-platform
 
@@ -74,7 +74,7 @@ As I already mentioned **Ionic** and **Appwraps** render your app’s UI in a we
 
 ### Development speed
 
- ****A metric that is really important for business. How long would it take to get to the Appstore and Play store? With React Native and Flutter you will obviously have to develop your app from scratch and therefore deal with developer teams, managers and other staff depending on your base. Of course, if you have a website built with React or Flutter (it’s possible) you can reuse some of the components, but still in the most cases you expect to wait for months.
+ **A metric that is really important for business. How long would it take to get to the Appstore and Play store? With React Native and Flutter you will obviously have to develop your app from scratch and therefore deal with developer teams, managers and other staff depending on your base. Of course, if you have a website built with React or Flutter (it’s possible) you can reuse some of the components, but still in the most cases you expect to wait for months.**
 
 Ionic allows much better reusability and therefore faster development but you will still need a developer to convert your web app or start from scratch.
 
